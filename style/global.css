@@ -5,19 +5,22 @@
 }
 
 :root {
+  /* Main */
   --red: #E3646E;
   --purple: #BB72E9;
   --blue: #3996DB;
   --green: #82BC4F;
   --yellow: #EABD5F;
 
+  /* Base */
   --gray-100: #0D0E11;
   --gray-200: #16181D;
   --gray-300: #292C34;
   --gray-400: #878EA1;
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
-
+  
+  /* Fonts */
   --font-family-asap: "Asap", sans-serif;
   --font-family-inconsolata: "Inconsolata", monospace;
   --font-family-mavenpro: "Maven Pro", sans-serif;
