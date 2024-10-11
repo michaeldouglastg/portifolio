@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: solid 1px red; */
 }
 
 :root {
+  --bg-img: url(/assets/Background_Intro.png);
+
   /* Main */
   --red: #E3646E;
   --purple: #BB72E9;
@@ -19,7 +22,7 @@
   --gray-400: #878EA1;
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
-  
+
   /* Fonts */
   --font-family-asap: "Asap", sans-serif;
   --font-family-inconsolata: "Inconsolata", monospace;
@@ -33,4 +36,17 @@
 
   --text-md: 400 16px/140% var(--font-family-mavenpro);
   --text-sm: 400 14px/140% var(--font-family-mavenpro);
+}
+
+body {
+  font: var(--text-sm);
+  color: var(--gray-600);
+  background: var(--bg-img);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  max-width: 100%;
 }
