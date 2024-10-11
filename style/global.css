@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: solid 1px red; */
+  border: solid 1px red;
 }
 
 :root {
@@ -38,6 +38,14 @@
   --text-sm: 400 14px/140% var(--font-family-mavenpro);
 }
 
+h1 {font: var(--title-lg);}
+h2 {font: var(--title-md);}
+h3 {font: var(--title-sm);}
+
+p {font: var(--text-md);}
+p {font: var(--text-md);}
+
+
 body {
   font: var(--text-sm);
   color: var(--gray-600);
@@ -47,6 +55,16 @@ body {
   background-position: center;
 }
 
+.container {
+  max-width: 1240px;
+  margin-inline: auto;
+}
+
 img {
   max-width: 100%;
+}
+
+p span {
+  font: var(--subtitle);
+  color: var(--blue);
 }
