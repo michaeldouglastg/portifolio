@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  background: var(--bg-img) no-repeat center/cover;
 
   .info {
-    border: solid 1px yellow;
     margin-block: 120px 94px;
     max-width: 1040px;
   }
@@ -103,7 +103,7 @@
     
     div:nth-child(1) {
       box-shadow: 0 0px 0px ;
-      transition: 1s;
+      transition: 0.5s;
 
       &:hover {
         box-shadow: 0 5px 15px;
@@ -112,7 +112,7 @@
     }
     
     div:nth-child(2) {
-      transition: 1s;
+      transition: 0.5s;
 
       &:hover {
         box-shadow: 0 5px 15px var(--red);
@@ -121,7 +121,7 @@
     }
     
     div:nth-child(3) {
-      transition: 1s;
+      transition: 0.5s;
       
       &:hover {
         box-shadow: 0 5px 15px var(--blue);
@@ -130,7 +130,7 @@
     }
     
     div:nth-child(4) {
-      transition: 1s;
+      transition: 0.5s;
       
       &:hover {
         box-shadow: 0 5px 15px var(--yellow);
@@ -139,7 +139,7 @@
     }
 
     div:nth-child(5) {
-      transition: 1s;
+      transition: 0.5s;
       
       &:hover {
         box-shadow: 0 5px 15px var(--blue);
@@ -148,7 +148,7 @@
     }
 
     div:nth-child(6) {
-      transition: 1s;
+      transition: 0.5s;
       
       &:hover {
         box-shadow: 0 5px 15px var(--green);
@@ -162,8 +162,4 @@
     height: 32px;
     margin-bottom: 57px;
   }
-
-
-
-
 }

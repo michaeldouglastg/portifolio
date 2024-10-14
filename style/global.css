@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 :root {
   --bg-img: url(/assets/Background_Intro.png);
+  --bg-img-sec: url(/assets/Background_Contacts.png);
 
   /* Main */
   --red: #E3646E;
@@ -49,10 +50,7 @@ p {font: var(--text-md);}
 body {
   font: var(--text-sm);
   color: var(--gray-600);
-  background: var(--bg-img);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: var(--gray-200);
 }
 
 .container {
