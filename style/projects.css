@@ -16,6 +16,7 @@
     margin-bottom: 144px;
     max-width: 1040px;
     gap: 10px;
+
   }
 
   figure {
@@ -23,6 +24,10 @@
     max-width: 380px;
     background: var(--gray-300);
     border-radius: 12px;
+
+    &:hover {
+      border: solid 2px var(--gray-400);
+    }
 
     img {
       border-radius: 8px;
