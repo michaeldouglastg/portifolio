@@ -34,12 +34,19 @@
 
       &:hover {
         transition: 1s;
+        border: solid 2px var(--purple);
         box-shadow: 0 5px 15px var(--purple);
 
         img {
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           transition: 1s;
+          transform: translateX(10px);
+        }
+
+        h3 {
+          transition: 1s;
+          text-shadow: 2px 2px 5px var(--purple);
         }
       }
     }
@@ -49,12 +56,19 @@
 
       &:hover {
         transition: 1s;
+        border: solid 2px var(--yellow);
         box-shadow: 0 5px 15px var(--yellow);
 
         img {
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           transition: 1s;
+          transform: translateX(10px);
+        }
+
+        h3 {
+          transition: 1s;
+          text-shadow: 2px 2px 5px var(--yellow);
         }
       }
     }
@@ -64,12 +78,19 @@
 
       &:hover {
         transition: 1s;
+        border: solid 2px var(--green);
         box-shadow: 0 5px 15px var(--green);
 
         img {
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           transition: 1s;
+          transform: translateX(10px);
+        }
+
+        h3 {
+          transition: 1s;
+          text-shadow: 2px 2px 5px var(--green);
         }
       }
     }

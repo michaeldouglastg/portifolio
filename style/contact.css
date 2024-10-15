@@ -1,0 +1,17 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-img-sec)no-repeat center/cover;
+
+  text-align: center;
+
+  .header {
+
+  }
+
+  .links {
+    border: solid 1px ;
+    
+  }
+}
